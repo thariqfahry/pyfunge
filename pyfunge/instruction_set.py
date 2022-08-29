@@ -153,6 +153,6 @@ def character_input(self):
     self.stack.append(ord(character))
 instruction_dict['~'] = character_input
 
-def end_program(self):
-    self.terminate(0)
-instruction_dict['@'] = end_program
+# def end_program(self):
+#     self.terminate(0)
+# instruction_dict['@'] = end_program

@@ -1,4 +1,4 @@
-from interpreter import Interpreter
+from .interpreter import Interpreter
 import os
 import sys
 

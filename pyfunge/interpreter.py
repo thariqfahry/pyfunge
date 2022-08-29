@@ -2,7 +2,7 @@
 import sys
 import random
 
-from instruction_set import instruction_dict, direction_dict
+from .instruction_set import instruction_dict, direction_dict
 
 # A list-like object to act as Befunge's stack that returns 0 if popped
 # while empty.
@@ -35,7 +35,7 @@ class Interpreter:
         self.stack = BefungeStack()
 
     def run(self):
-        while True:
+        while self.program[self.y][self.x] != '@' or self.string_mode:
             self.execute_instruction()
             self.advance_pointer()
 
