@@ -1,6 +1,5 @@
 import random
 import sys
-from tkinter import E
 
 direction_dict = {
     '>': lambda self: setattr(self, 'x', (self.x+1) % (self.width )),
