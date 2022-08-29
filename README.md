@@ -16,4 +16,4 @@ python main.py /path/to/file.bf
 
 ## Attributions
 `test.bf`: https://codegolf.stackexchange.com/questions/634/interpret-befunge-93  
-`quine.bf`: https://esolangs.org/wiki/Befunge#Examples
+Quines   : https://esolangs.org/wiki/Befunge#Examples
