@@ -12,19 +12,6 @@ class BefungeStack(list):
             return 0
         else:
             return super().pop()
-    def __getitem__(self, index):
-        raise RuntimeError("getitem should not be used!")
-        # try:
-        #     return super().__getitem__(index)
-        # except IndexError:
-        #     return 0
-
-    def __setitem__(self, index, value):
-        raise RuntimeError("setitem should not be used!")
-        # try:
-        #     super().__setitem__(index, value)
-        # except IndexError:
-        #     pass
 
 
 class Interpreter:
