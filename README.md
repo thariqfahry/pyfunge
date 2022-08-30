@@ -9,12 +9,18 @@ Yet another Befunge-93 interpreter written in Python.
 python main.py /path/to/file.bf
 ```
 
-## Example: Quine
-`python main.py ./examples/quine.bf`  
+## Example: Hello, World!
+`./examples/helloworld.bf`
+```befunge
+"!dlroW ,olleH">:v
+               |,<
+               @
 ```
-01->1# +# :# 0# g# ,# :# 5# 8# *# 4# +# -# _@
+
+```
+Hello, World!
 ```
 
 ## Attributions
 `test.bf`: https://codegolf.stackexchange.com/questions/634/interpret-befunge-93  
-Quines   : https://esolangs.org/wiki/Befunge#Examples
+Other examples : https://esolangs.org/wiki/Befunge#Examples
