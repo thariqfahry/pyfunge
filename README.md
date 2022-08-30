@@ -1,5 +1,6 @@
-# Pyfunge
+![example workflow](https://github.com/thariqfahry/pyfunge/actions/workflows/pytest.yml/badge.svg)
 
+# Pyfunge
 Yet another Befunge-93 interpreter written in Python.
 
 ## Running 
